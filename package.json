@@ -5,6 +5,7 @@
     "scripts": {
         "lint": "eslint .",
         "lint-fix": "eslint . --fix",
+        "prettier-check": "prettier --check \"**/*.+(vue|ts|js|tsx|jsx|json|css|md)\"",
         "prettier": "prettier --write \"**/*.+(vue|ts|js|tsx|jsx|json|css|md)\"",
         "pretty": "npm run prettier && npm run lint-fix",
         "type-check": "vue-tsc --noEmit",
