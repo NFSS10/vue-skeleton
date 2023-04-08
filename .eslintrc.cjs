@@ -29,7 +29,6 @@ module.exports = {
         "standard/no-callback-literal": "off",
         "standard/computed-property-even-spacing": "off",
         "node/no-callback-literal": "off",
-
         "vue/multi-word-component-names": "off"
     }
 };
