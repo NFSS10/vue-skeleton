@@ -12,9 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Handle eol
-        run: git config --global core.autocrlf true
-
       - name: Checkout
         uses: actions/checkout@v3
       
