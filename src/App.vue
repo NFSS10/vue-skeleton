@@ -6,7 +6,7 @@
     </router-view>
 </template>
 
-<style scoped>
+<style>
 #app {
     display: flex;
     flex-direction: column;
@@ -23,6 +23,10 @@
 #app > .fade-enter-from,
 #app > .fade-leave-to {
     opacity: 0;
+}
+
+#app > .page {
+    flex: auto;
 }
 </style>
 
