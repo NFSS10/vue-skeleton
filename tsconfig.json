@@ -2,15 +2,17 @@
     "compilerOptions": {
         "module": "es2022",
         "target": "es2020",
-        "moduleResolution": "Node",
+        "moduleResolution": "node",
         "types": ["node", "vite/client"],
-        "strict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true,
-        "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
+        "removeComments": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
 
         // Required in Vue projects
         "skipLibCheck": true,
@@ -20,5 +22,6 @@
         // Enforce using `import type` instead of `import` for types
         "verbatimModuleSyntax": true
     },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+    "exclude": ["node_modules"]
 }
