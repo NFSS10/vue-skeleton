@@ -11,7 +11,6 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "composite": true,
 
         // Required in Vue projects
         "skipLibCheck": true,
